@@ -72,35 +72,29 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Diary App",
+    des: "A diary app, focusing on creating a clean, responsive, and intuitive user interface",
+    img: "/p1.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg",],
+    href: "https://victo-writing-app.netlify.app/",
+    link: "victo-writing-app.netlify.app"
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Movie Trailer App",
+    des: "A dynamic movie app, allowing users to browse and watch trailers from a clean, responsive interface.",
+    img: "/p2.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg",],
+    link: "pelisfrontend.netlify.app",
+    href: "https://pelisfrontend.netlify.app/"
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    title: "Chatty",
+    des: "A realtime chat web application",
+    img: "/p3.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "/ui.aiimg.com",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
   },
 ];
 
@@ -147,15 +141,15 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Cloud Basic Knowledge",
+    desc: "Developed and managed scalable, containerized applications using Docker and deployed them on AWS to ensure high availability and efficient resource utilization.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Fullstack Tools Knowledge",
+    desc: "Developed robust backend systems and managed databases using a range of technologies including NestJS, PHP, and various database solutions.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
@@ -172,13 +166,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    href: "https://github.com/victormgb" 
   },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    href: "https://www.linkedin.com/in/vicmgb99/"
   },
 ];
