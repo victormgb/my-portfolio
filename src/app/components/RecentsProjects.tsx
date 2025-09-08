@@ -8,7 +8,7 @@ import { PinContainer } from "./ui/Pin";
 const RecentProjects = () => {
 
 
-  const gotopage = (href: string) => {
+  const gotopage = (href: string|undefined) => {
     // Use window.open for a new tab, or window.location.href for the same tab
     window.open(href, '_blank', 'noopener,noreferrer');
   };
