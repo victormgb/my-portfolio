@@ -94,7 +94,8 @@ export const projects = [
     des: "A realtime chat web application",
     img: "/p3.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
-    link: "/ui.aiimg.com",
+    link: "victor-chat-project.netlify.app",
+    href: "https://victor-chat-project.netlify.app"
   },
 ];
 
